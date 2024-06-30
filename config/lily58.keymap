@@ -54,11 +54,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp ESCAPE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none     &none       &none                                                     &kp K_PLAY_PAUSE      &kp K_STOP         &kp K_BACK      &kp K_NEXT    &none            &none
-&kp TAB         &kp K_MUTE         &none            &none     &kp TILDE   &kp GRAVE                                                 &kp LS(SINGLE_QUOTE)  &kp DOUBLE_QUOTES  &kp MINUS       &kp PLUS      &kp EQUAL        &kp BACKSPACE
-&kp CAPSLOCK    &kp EXCL           &kp AT           &kp HASH  &kp DOLLAR  &kp PRCNT                                                 &kp CARET             &kp AMPS           &kp ASTRK       &kp LS(SEMI)  &kp QUESTION     &kp ENTER
-&kp LEFT_SHIFT  &none              &none            &none     &none       &kp PIPE   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UNDER             &kp LEFT           &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
-                                                    &none     &none       &kp SPACE  &none                   &none                  &kp SPACE             &none              &none
+&kp ESCAPE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none     &none       &none                                                     &kp K_PLAY_PAUSE  &kp K_STOP        &kp K_BACK         &kp K_NEXT    &none            &none
+&kp TAB         &kp K_MUTE         &none            &none     &kp TILDE   &kp GRAVE                                                 &kp MINUS         &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PLUS      &kp EQUAL        &kp BACKSPACE
+&kp CAPSLOCK    &kp EXCL           &kp AT           &kp HASH  &kp DOLLAR  &kp PRCNT                                                 &kp CARET         &kp AMPS          &kp ASTRK          &kp LS(SEMI)  &kp QUESTION     &kp ENTER
+&kp LEFT_SHIFT  &none              &none            &none     &none       &kp PIPE   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UNDER         &kp LEFT          &kp DOWN_ARROW     &kp UP_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT
+                                                    &none     &none       &kp SPACE  &none                   &none                  &kp SPACE         &none             &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
