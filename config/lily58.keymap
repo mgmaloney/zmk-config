@@ -21,6 +21,11 @@
             bindings = <&kp HOME>;
             key-positions = <25 26>;
         };
+
+        clear_bt_profiles {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <37 38 39 40>;
+        };
     };
 
     keymap {
