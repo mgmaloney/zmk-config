@@ -14,7 +14,7 @@
 
         End_Combo {
             bindings = <&kp END>;
-            key-positions = <33 34 35>;
+            key-positions = <33 34 32>;
         };
 
         Home_Combo {
