@@ -65,9 +65,9 @@
 
             bindings = <
 &kp ESCAPE      &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &none             &none                                                          &kp K_PLAY_PAUSE  &kp K_STOP         &kp K_BACK             &kp K_NEXT        &kp PLUS           &none
-&kp TAB         &kp EXCLAMATION  &kp AT_SIGN        &kp HASH              &kp DOLLAR        &kp PERCENT                                                    &kp CARET         &kp AMPERSAND      &kp ASTERISK           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSPACE
+&kp TAB         &kp EXCLAMATION  &kp AT_SIGN        &kp HASH              &kp DOLLAR        &kp PERCENT                                                    &kp MINUS         &kp AMPERSAND      &kp ASTERISK           &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSPACE
 &kp LEFT_ALT    &kp GRAVE        &kp LESS_THAN      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LEFT_BRACE                                                 &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp EQUAL          &kp ENTER
-&kp LEFT_SHIFT  &none            &none              &none                 &none             &kp PIPE        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UNDER         &kp LEFT           &kp DOWN_ARROW         &kp UP_ARROW      &kp RIGHT_ARROW    &kp RIGHT_ALT
+&kp LEFT_SHIFT  &none            &none              &none                 &kp CARET         &kp PIPE        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp UNDER         &kp LEFT           &kp DOWN_ARROW         &kp UP_ARROW      &kp RIGHT_ARROW    &kp RIGHT_ALT
                                                     &none                 &none             &kp SPACE       &kp LEFT_SHIFT          &kp RIGHT_SHIFT        &kp SPACE         &none              &none
             >;
 
