@@ -83,11 +83,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&none  &none  &none  &none  &none  &none                                             &none             &none     &none  &none  &none    &none
-&none  &none  &none  &none  &none  &kp LESS_THAN                                     &kp GREATER_THAN  &none     &none  &none  &none    &none
-&none  &none  &none  &none  &none  &none                                             &none             &none     &none  &none  &none    &none
-&none  &none  &none  &none  &none  &none          &kp LESS_THAN    &kp GREATER_THAN  &none             &kp HOME  &none  &none  &kp END  &none
-                     &none  &none  &none          &none            &none             &none             &none     &none
+&none  &none  &none           &none  &none  &none                                             &none             &none     &none  &none  &none    &none
+&none  &none  &none           &none  &none  &kp LESS_THAN                                     &kp GREATER_THAN  &none     &none  &none  &none    &none
+&none  &none  &none           &none  &none  &none                                             &none             &none     &none  &none  &none    &none
+&none  &none  &bt BT_CLR_ALL  &none  &none  &none          &kp LESS_THAN    &kp GREATER_THAN  &none             &kp HOME  &none  &none  &kp END  &none
+                              &none  &none  &none          &none            &none             &none             &none     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
